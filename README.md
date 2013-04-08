@@ -39,14 +39,14 @@ PS1="$(show_clock) \h:\W \u\$ "
 #### `clock.sh`
 
 * `show_clock`: Show a clock-face, rounded to the nearest
-  half-hour.
+  half-hour.  Example: 🕗
 
 #### `rvm.sh`
 
 * `rvm_mode`: Show a dot depending on the active RVM configuration:
-    * White dot: Using system ruby (no RVM ruby active).
-    * Red dot: Using an RVM ruby, but NOT using an explicit gemset.
-    * Blue dor: Using an RVM ruby, AND using an explicit gemset.
+    * White dot (⚪): Using system ruby (no RVM ruby active).
+    * Red dot (🔴): Using an RVM ruby, but NOT using an explicit gemset.
+    * Blue dot (🔵): Using an RVM ruby, AND using an explicit gemset.
 * `rvm_ruby_details`: Show a string indicating which ruby, which
   version/patch-level, and which gemset are in use.  Shows nothing if an RVM
   ruby isn't active.  Adds one space after the string if an RVM ruby is active.
@@ -56,7 +56,7 @@ PS1="$(show_clock) \h:\W \u\$ "
 
 #### `osx/power.sh`
 
-* `power_mode`: Show a plug or battery to indicate whether
+* `power_mode`: Show a plug (🔌) or battery (🔋) to indicate whether
   the machine is drawing power from AC or battery respectively. (NOTE: Works
   best with a light background color, as the plug symbol is mostly black...)
 
