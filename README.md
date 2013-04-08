@@ -36,6 +36,13 @@ PS1="$(show_clock) \h:\W \u\$ "
 * `show_clock`: Show a clock-face, rounded to the nearest
   half-hour.
 
+#### `rvm.sh`
+
+* `rvm_mode`: Show a dot depending on the active RVM configuration:
+    * White dot: Using system ruby (no RVM ruby active).
+    * Red dot: Using an RVM ruby, but NOT using an explicit gemset.
+    * Blue dor: Using an RVM ruby, AND using an explicit gemset.
+
 ### OS X
 
 #### `osx/power.sh`
@@ -47,4 +54,4 @@ PS1="$(show_clock) \h:\W \u\$ "
 ## Coming Soon
 
 * Various widgets to show information about the current git repo.
-* Various widgets to show information about the currently active RVM ruby / gemset.
+* More widgets to show information about the currently active RVM ruby / gemset.
