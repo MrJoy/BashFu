@@ -9,9 +9,9 @@ function rvm_mode() {
     echo '⚪ '
   else
     if [[ $RVM_GEMSET -le 1 ]]; then
-      echo '🔴  '
+      echo '🔴 '
     else
-      echo '🔵  '
+      echo '🔵 '
     fi
   fi
 }
