@@ -15,3 +15,7 @@ function rvm_mode() {
     fi
   fi
 }
+
+function rvm_ruby_details() {
+  ~/.rvm/bin/rvm-prompt i v p g | perl -pse "s/^(.+)\$/\$1 /"
+}

@@ -42,6 +42,10 @@ PS1="$(show_clock) \h:\W \u\$ "
     * White dot: Using system ruby (no RVM ruby active).
     * Red dot: Using an RVM ruby, but NOT using an explicit gemset.
     * Blue dor: Using an RVM ruby, AND using an explicit gemset.
+* `rvm_ruby_details`: Show a string indicating which ruby, which
+  version/patch-level, and which gemset are in use.  Shows nothing if an RVM
+  ruby isn't active.  Adds one space after the string if an RVM ruby is active.
+  Example: `ruby-1.9.3-p392@mrjoy.com`
 
 ### OS X
 
