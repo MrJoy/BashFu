@@ -6,6 +6,11 @@ goodness.
 Why would you do that?  Simple:  More compact, easy-to-consume secondary
 information that would otherwise leave your prompt too cluttered.
 
+## Requirements
+
+A terminal program and font capable of displaying Unicode 6.1 characters,
+specifically the Emoji character set.
+
 ## Installation
 
 Simply clone this repo somewhere handy, then in your `.bash_profile`,
